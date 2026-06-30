@@ -1,0 +1,51 @@
+Did you upload your completed presentation in PDF format? (16 points total for Question 1)
+---------------------------------------------------------------------------------------------
+Yes, I have successfully uploaded the completed presentation in PDF format named "Machine Learning Capstone Project Report.pdf".
+
+Did you complete the required Introduction slide?
+--------------------------------------------------
+Yes, Slide 1 introduces the project background, goals, and the scope of building multiple recommender systems (content-based, collaborative filtering, clustering-based) using course interaction data.
+
+Did you complete the required Exploratory Data Analysis slides?
+---------------------------------------------------------------
+Yes, Slides 2 to 5 cover the exploratory data analysis, showing course count by genre, enrollment distributions, the 20 most popular courses, and a word cloud of course titles.
+
+Did you complete the required content-based recommender system using user profile and course genres slide?
+---------------------------------------------------------------------------------------------------------
+Yes, Slide 6 shows the flowchart and logic, and Slide 7 presents the evaluation results of the user profile-based recommendation system.
+
+Did you complete the required content-based recommender system using course similarity slides?
+----------------------------------------------------------------------------------------------
+Yes, Slide 8 outlines the flowchart, and Slide 9 presents the evaluation results using course similarity metrics (such as Cosine similarity).
+
+Did you complete the required content-based recommender system using user profile clustering slides?
+-----------------------------------------------------------------------------------------------------
+Yes, Slide 10 describes the user profile clustering workflow using K-means, and Slide 11 shows the evaluation results of recommendations based on clusters.
+
+Did you complete the required KNN-based collaborative filtering slide?
+----------------------------------------------------------------------
+Yes, Slide 12 explains the KNN-based collaborative filtering model workflow and prediction results.
+
+Did you complete the required NMF-based collaborative filtering slide?
+----------------------------------------------------------------------
+Yes, Slide 13 describes the Non-negative Matrix Factorization (NMF) collaborative filtering workflow and results.
+
+Did you complete the required neural network embedding based collaborative filtering slide?
+-------------------------------------------------------------------------------------------
+Yes, Slide 14 explains the neural network embedding-based collaborative filtering recommender system (RecommenderNet) architecture and results.
+
+Did you complete the required collaborative filtering algorithms evaluation slides?
+-----------------------------------------------------------------------------------
+Yes, Slide 15 compares the performance of the collaborative filtering models (KNN, NMF, Neural Network) using RMSE, where the Neural Network model achieved the lowest RMSE.
+
+Did you complete the required Conclusion slide?
+------------------------------------------------
+Yes, Slide 16 summarizes the findings, concluding that neural network embeddings provided the most accurate ratings prediction, and lists potential business recommendations for course platforms.
+
+Did you apply your creativity to improve the presentation beyond the template? (2 points)
+-------------------------------------------------------------------------------------------
+Yes, I applied a custom sleek visual theme, designed detailed flowcharts for each of the recommendation algorithms, and highlighted key performance metrics.
+
+Did you display any innovative insights? (2 points)
+-----------------------------------------------------
+Yes, I discussed the trade-offs between content-based systems (which mitigate user cold-start issues) and collaborative filtering (which captures latent preferences but suffers from sparsity), and proposed a hybrid recommender framework.
