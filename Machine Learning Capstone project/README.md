@@ -119,8 +119,4 @@ Your presentation will be evaluated based on the presence and completeness of th
 * **1.15 Model Performance Comparison Slide**, clearly comparing the performance of the collaborative filtering models. (1 point)
 * **1.16 Conclusion Slide**, clearly and concisely summarizing the key findings and results. (1 point)
 
-### Question 2: Choose the correct option based on the approach used in the content-based recommender system. (1 point)
 
-### Question 3: Select the correct options based on the steps that are part of the KNN-based recommender workflow. (2 points)
-
-### Question 4: Choose the correct option based on which metric was used to evaluate the collaborative filtering models? (1 point)
