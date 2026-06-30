@@ -106,11 +106,7 @@ Your presentation will be evaluated based on the presence and completeness of th
 * **1.7 R Shiny dashboard related slides** (1 point)
 * **1.8 Conclusion slide** (1 point)
 
-### Question 2: Why is the pipe operator (`%>%`) used? (1 point)
 
-### Question 3: What is the effect of replacing matched patterns with an empty string (`""`) using `str_replace_all()`? (1 point)
-
-### Question 4: Based on the bar chart output in the *Baseline Regression Model* lab, which variable has the highest positive coefficient? (1 point)
 
 ### Question 5: Provide the R code used to define a linear regression model specification using `linear_reg()` with the `lm` engine, as described in the *Baseline Regression Model* lab. (2 points)
 
