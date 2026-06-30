@@ -1,0 +1,43 @@
+Did you complete the Executive Summary slide requirements? (2 points)
+Yes, I have successfully completed the Executive Summary slide requirements on Slide 2.
+It provides a concise summary of the crops dataset, weather prediction modeling, and Shiny dashboard results.
+
+Did you complete the Introduction slide? (2 points)
+Yes, the required Introduction slide is complete and is presented on Slide 1 of the PDF.
+It introduces the scope of the capstone project, datasets analyzed, and target business audiences.
+
+Did you complete the methodology-related slides? (6 points)
+Yes, I completed the 6 methodology slides covering data scraping, wrangling, and database loading.
+These are structured across Slides 3 to 8, outlining the technical workflow from ingestion to modeling.
+
+Did you complete all EDA with SQL-related slides? (6 points)
+Yes, the 6 required EDA with SQL slides are fully completed on Slides 9 through 14.
+They show the RSQLite table setups, record counts, and average crop prices with embedded outputs.
+
+Did you complete all EDA with visualization-related slides? (8 points)
+Yes, I completed the 4 required EDA with visualization slides across Slides 15 to 18.
+They show the ggplot histograms and distributions of weather variables on the training set.
+
+Did you complete the predictive analysis-related slides? (8 points)
+Yes, I completed the 4 predictive analysis slides covering regression models on Slides 19 to 22.
+They compare simple and multiple linear regressions (MLR), displaying RMSE metrics and fit charts.
+
+Did you complete the R Shiny dashboard-related slides? (6 points)
+Yes, the 3 R Shiny dashboard slides are successfully completed on Slides 23 to 25.
+They illustrate the reactive UI inputs, control panels, and the live dashboard views.
+
+Did you complete the Conclusion slide (2 points)
+Yes, the required Conclusion slide has been fully completed and is located on Slide 26.
+It provides actionable recommendations for grain investments and airport weather forecasting.
+
+Did you complete the Appendix slide with the required R and SQL code snippets? (5 points)
+Yes, the required Appendix slide has been fully completed and is located on Slide 27.
+It presents all the essential R modeling specs, Shiny server observers, and SQL database queries.
+
+Did you apply your creativity to improve the presentation beyond the template? (2 points)
+Yes, I applied creativity by implementing a custom premium slate-dark theme with colored cards.
+I also embedded actual, high-resolution code output screenshots directly on each section's slides.
+
+Did you display any innovative insights beyond the required tasks? (2 points)
+Yes, I presented innovative insights regarding currency correlation and target demographics for ads.
+These insights translate model coefficients and dashboard filters directly into business strategies.

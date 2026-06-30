@@ -1,0 +1,38 @@
+IBM Data Science/Data Analytics Capstone Quiz Answers
+======================================================
+
+Question 2: Why is the pipe operator (%>%) used?
+-----------------------------------------------
+Answer: To pass the output of one operation directly as input to the next
+Explanation: The pipe operator in R (from the magrittr/tidyverse packages) takes the expression on its left-hand side and pipes it into the first argument of the function on its right-hand side, allowing multiple data transformations to be chained cleanly without saving intermediate variables.
+
+Question 3: What is the effect of replacing matched patterns with an empty string ("") using str_replace_all()?
+--------------------------------------------------------------------------------------------------------------
+Answer: Removes the matched text completely from the string
+Explanation: Replacing a matched pattern with an empty string ("") means that the pattern is deleted from the text entirely (e.g. converting "0.01s" to "0.01" or trace "T" values to empty space).
+
+Question 4: Based on the bar chart output in the Baseline Regression Model lab, which variable has the highest positive coefficient?
+------------------------------------------------------------------------------------------------------------------------------------
+Answer: wind_speed (or HOURLYWindSpeed depending on variable naming in the dataset)
+Explanation: In Task 8 of the NOAA weather modeling lab (where precipitation is predicted), the coefficients fitted for the variables are:
+  - relative_humidity: 0.0002785
+  - dry_bulb_temp_f: 0.00002226
+  - wind_speed: 0.0002805
+  - station_pressure: -0.01606
+Thus, wind_speed has the highest positive coefficient.
+
+Question 5: Provide the R code used to define a linear regression model specification using linear_reg() with the lm engine, as described in the Baseline Regression Model lab.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer:
+lm_spec <- linear_reg() %>% set_engine("lm")
+(Alternative inline form: linear_reg() %>% set_engine(engine = "lm"))
+Explanation: In the tidymodels framework, a linear regression model is defined using linear_reg() and the engine is specified using set_engine("lm") to use the standard stats::lm backend.
+
+Question 6: Provide the R code used to listen for changes in the city dropdown input in the Shiny server.
+---------------------------------------------------------------------------------------------------------
+Answer:
+observeEvent(input$city, {
+  # Event handler code
+})
+(Or simply: observeEvent(input$city, { ... }))
+Explanation: Shiny's observeEvent() is specifically designed to listen for changes in a reactive input (like input$city, which corresponds to the select input dropdown for the city) and trigger code execution (side effects) on the server side.
