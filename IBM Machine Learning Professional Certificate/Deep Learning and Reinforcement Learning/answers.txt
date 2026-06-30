@@ -1,0 +1,43 @@
+IBM Deep Learning and Reinforcement Learning Quiz Answers
+=========================================================
+
+Question 2: Which of the following training strategies can indirectly help reduce overfitting? (Select all that apply) (2 Points)
+---------------------------------------------------------------------------------------------------------------------
+Answers:
+  1. Dropout
+  2. L1/L2 Regularization (Weight Decay)
+  3. Early Stopping
+  4. Data Augmentation
+Explanation: Overfitting occurs when a model learns the noise in the training data rather than the underlying pattern. Strategies to combat it include:
+  - Dropout: Randomly turns off neurons during training, forcing redundant representations.
+  - L1/L2 Regularization: Adds a penalty to the loss function based on weight magnitude, keeping weights small.
+  - Early Stopping: Halts training when validation performance begins to degrade.
+  - Data Augmentation: Synthetically increases the size and diversity of the training set.
+
+
+Question 3: What is the primary role of a kernel in a convolutional neural network? (1 Point)
+--------------------------------------------------------------------------------------------
+Answer: To extract features (such as edges, textures, and shapes) from the input image.
+Explanation: In a CNN, a kernel (filter) slides (convolves) across the input image matrix, performing element-wise multiplications and additions. This extracts key spatial feature representations at various levels of abstraction.
+
+
+Question 4: If you overlay a 3x3 kernel on a 3x3 image, what will be the size of the output? (1 Point)
+---------------------------------------------------------------------------------------------------
+Answer: 1x1 (or 1)
+Explanation: Using the standard output dimension formula:
+  Output Size = floor((Input_Size - Kernel_Size + 2 * Padding) / Stride) + 1
+  Assuming stride = 1 and padding = 0 (valid padding):
+  Output Size = floor((3 - 3 + 0) / 1) + 1 = 0 + 1 = 1.
+  Therefore, a 3x3 kernel sliding across a 3x3 image produces a 1x1 single pixel output.
+
+
+Question 5: Which techniques can help improve model performance? (Select all that apply) (3 Points)
+---------------------------------------------------------------------------------------------------
+Answers:
+  1. Hyperparameter tuning (adjusting learning rate, epochs, batch size, or layer sizes)
+  2. Batch Normalization (stabilizing and accelerating training)
+  3. Data Augmentation (increasing dataset size and variety)
+  4. Using advanced optimizers (like Adam or RMSprop instead of standard SGD)
+  5. Using Transfer Learning / Pre-trained models (e.g., ResNet, VGG)
+  6. Feature scaling / Input normalization (ensuring input values are in a stable range like [0, 1])
+Explanation: Improving deep learning model performance involves optimization of network learning dynamics, stabilizing activation distributions across layers, and providing more varied or higher-quality data.
